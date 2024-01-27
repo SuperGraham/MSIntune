@@ -23,11 +23,9 @@ log="/var/log/mdatpschedscan.log"
 appname="Scheduled MDATP Quick Scan"
 exec 1>> $log 2>&1
 
-echo ""
 echo "###########################################################"
 echo "# $(date) | Starting $appname"
 echo "###########################################################"
-echo ""
 
 /usr/local/bin/mdatp scan quick >/dev/null
 
@@ -35,6 +33,7 @@ echo ""
 echo "###########################################################"
 echo "# $(date) | Stopping $appname"
 echo "###########################################################"
+echo ""
 echo ""
 
 exit 0
