@@ -25,7 +25,7 @@ exec 1>> $log 2>&1
 
 echo "# $(date) | Starting $appname"
 
-/usr/local/bin/mdatp scan quick >/dev/null
+/usr/local/bin/mdatp scan full >/dev/null
 
 echo "# $(date) | Stopping $appname"
 
