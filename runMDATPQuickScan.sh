@@ -5,7 +5,7 @@
 ##
 ## Script to trigger scheduled MDATP quick scan
 ##
-###########################################
+############################################################################################
 
 ## Copyright (c) 2020 Microsoft Corp. All rights reserved.
 ## Scripts are not supported under any Microsoft standard support program or service. The scripts are provided AS IS without warranty of any kind.
